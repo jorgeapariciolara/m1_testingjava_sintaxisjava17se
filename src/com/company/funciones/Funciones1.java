@@ -1,11 +1,10 @@
 package com.company.funciones;
 
-public class FuncionesTipos {
-
+public class Funciones1 {
 
     public static void main(String[] args) {
 
-        imprimirholamundo();
+        imprimirHolamundo();
 
         System.out.println(obtenerbienvenida());
 
@@ -20,16 +19,14 @@ public class FuncionesTipos {
 
         int numero1 = 98;
         int numero2 = 12;
-        System.out.println(suma(numero1,numero2));
+        System.out.println(suma(numero1,numero2)) ;
     }
-
-
 
     // OPCION 1: Función no recibe nada (sin parámetros) y que no devuelva nada (void)
     // public static de momento lo ignoramos
     // void significa que este método no devuelve nada
     // holaMundo es el nombre del método (elegido por el programador)
-    public static void imprimirholamundo(){
+    public static void imprimirHolamundo(){
         System.out.println("¡Hola a tod@s!");
     }
 
@@ -48,6 +45,4 @@ public class FuncionesTipos {
     public static int suma(int numero1, int numero2){
         return numero1 + numero2;
     }
-
-
 }
